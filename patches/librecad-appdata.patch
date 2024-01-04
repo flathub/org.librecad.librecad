@@ -1,22 +1,23 @@
 diff --git a/desktop/org.librecad.librecad.appdata.xml b/desktop/org.librecad.librecad.appdata.xml
-index 0baf14e5..9aebc728 100644
+index 3eeb4797..7d89e6b8 100644
 --- a/desktop/org.librecad.librecad.appdata.xml
 +++ b/desktop/org.librecad.librecad.appdata.xml
-@@ -1,7 +1,7 @@
- <?xml version="1.0" encoding="UTF-8"?>
- <!-- Copyright 2010-2022 LibreCAD contributors <info@librecad.org> -->
- <component type="desktop-application">
--<id>org.librecad.librecad</id>
-+    <id>org.librecad.librecad</id>
-     <metadata_license>CC-BY-SA-4.0</metadata_license>
-     <project_license>GPL-2.0</project_license>
-     <name>LibreCAD</name>
-@@ -21,4 +21,8 @@
-         <binary>librecad</binary>
-     </provides>
+@@ -23,6 +23,17 @@
      <update_contact>info@librecad.org</update_contact>
-+    <content_rating type="oars-1.1" />
-+    <releases>
+     <content_rating type="oars-1.1" />
+     <releases>
+-        <release date="2023-07-29" version="2.2.0.2" />
++        <release date="2023-07-29" version="2.2.0.2">
++          <description>
++            <ul>
++              <li>An undetected vulnerability, opening malformed LFF
++              font files caused a crash</li>
++              <li>Format issues in bundled fonts</li>
++              <li>A regression, finding nearest points on ellipses
++              caused a crash</li>
++            </ul>
++          </description>
++        </release>
 +        <release date="2022-12-17" version="2.2.0" />
-+    </releases>
+     </releases>
  </component>

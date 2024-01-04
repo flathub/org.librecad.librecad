@@ -1,8 +1,8 @@
 {
     "id": "org.librecad.librecad",
     "runtime": "org.kde.Platform",
-    "sdk": "org.kde.Sdk//5.15-22.08",
-    "runtime-version": "5.15-22.08",
+    "sdk": "org.kde.Sdk//5.15-23.08",
+    "runtime-version": "5.15-23.08",
     "command": "librecad",
     "rename-desktop-file": "librecad.desktop",
     "rename-icon": "librecad",
@@ -50,7 +50,7 @@
                 "install -Dm644 unix/resources/fonts/* -t /app/share/librecad/fonts",
                 "install -Dm644 unix/resources/patterns/* -t /app/share/librecad/patterns",
                 "install -Dm644 LICENSE* licenses/* -t /app/share/licenses/librecad",
-                "install -Dm644 desktop/org.librecad.librecad.appdata.xml -t /app/share/appdata",
+                "install -Dm644 desktop/org.librecad.librecad.appdata.xml /app/share/metainfo/org.librecad.librecad.metainfo.xml",
                 "install -Dm644 desktop/librecad.desktop -t /app/share/applications",
                 "install -Dm644 desktop/librecad.sharedmimeinfo /app/share/mime/packages/${FLATPAK_ID}.xml",
                 "install -Dm644 librecad/res/main/librecad.png  -t /app/share/icons/hicolor/128x128/apps/",
@@ -59,8 +59,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/LibreCAD/LibreCAD/archive/2.2.0.tar.gz",
-                    "sha256": "dfce6f290b89707a0717789aa0cdea4ca5a96685fa0e65cfc49d70166bd182f2"
+                    "url": "https://github.com/LibreCAD/LibreCAD/archive/2.2.0.2.tar.gz",
+                    "sha256": "fcb888a550f1f515ef6a2f7af2dd02605dd5c6da8a23f6c3a52479f8532ac109"
                 },
                 {
                     "type": "patch",
