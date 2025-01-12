@@ -1,8 +1,8 @@
 {
     "id": "org.librecad.librecad",
     "runtime": "org.kde.Platform",
-    "sdk": "org.kde.Sdk//5.15-23.08",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "5.15-24.08",
+    "sdk": "org.kde.Sdk",
     "command": "librecad",
     "rename-desktop-file": "librecad.desktop",
     "rename-icon": "librecad",
