@@ -2,12 +2,15 @@ diff --git a/desktop/org.librecad.librecad.appdata.xml b/desktop/org.librecad.li
 index 3eeb4797..7d89e6b8 100644
 --- a/desktop/org.librecad.librecad.appdata.xml
 +++ b/desktop/org.librecad.librecad.appdata.xml
-@@ -23,6 +23,18 @@
+@@ -23,6 +23,21 @@
      <update_contact>info@librecad.org</update_contact>
      <content_rating type="oars-1.1" />
 +    <developer_name>LibreCAD Developers</developer_name>
      <releases>
--        <release date="2023-07-29" version="2.2.0.2" />
+-        <release date="2022-12-17" version="2.2.0" />
++        <release date="2025-01-04" version="2.2.1">
++          <url>https://github.com/LibreCAD/LibreCAD/releases/tag/v2.2.1</url>
++        </release>
 +        <release date="2023-07-29" version="2.2.0.2">
 +          <description>
 +            <ul>
