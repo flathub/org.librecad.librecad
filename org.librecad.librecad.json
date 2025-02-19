@@ -30,7 +30,7 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://boostorg.jfrog.io/artifactory/main/release/1.80.0/source/boost_1_80_0.tar.bz2",
+                    "url" : "https://archive.boost.io/release/1.80.0/source/boost_1_80_0.tar.bz2",
                     "sha256" : "1e19565d82e43bc59209a168f5ac899d3ba471d55c7610c677d4ccf2c9c500c0"
                 }
             ]
@@ -59,8 +59,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/LibreCAD/LibreCAD/archive/2.2.1.tar.gz",
-                    "sha256": "c4bce54bca4fd6cbc30d42d80312d78bb5733a9ced4dfce55cac5361891550bc"
+                    "url": "https://github.com/LibreCAD/LibreCAD/archive/refs/tags/v2.2.1.1.tar.gz",
+                    "sha256": "29c2f6fca4e0018f1e99fe324a8e9177780c1b01c435c2950a2c52627a47fdbf"
                 },
                 {
                     "type": "patch",
