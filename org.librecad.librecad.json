@@ -1,7 +1,7 @@
 {
     "id": "org.librecad.librecad",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-24.08",
+    "runtime-version": "5.15-25.08",
     "sdk": "org.kde.Sdk",
     "command": "librecad",
     "rename-desktop-file": "librecad.desktop",
@@ -25,7 +25,7 @@
             ],
             "build-commands" : [
                 "./bootstrap.sh --with-libraries=atomic,math,python",
-                "./b2 install variant=release link=shared runtime-link=shared --prefix=/app cxxflags=-I/usr/include/python3.10 -j $FLATPAK_BUILDER_N_JOBS"
+                "./b2 install variant=release link=shared runtime-link=shared --prefix=/app -j $FLATPAK_BUILDER_N_JOBS"
             ],
             "sources" : [
                 {
