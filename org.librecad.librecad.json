@@ -58,8 +58,12 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/LibreCAD/LibreCAD/archive/refs/tags/v2.2.1.3.tar.gz",
-                    "sha256": "5656f172c27967359baa4cac65e9a7880217379a7813387168943dfcdd6de658"
+                    "url": "https://github.com/LibreCAD/LibreCAD/archive/refs/tags/v2.2.1.5.tar.gz",
+                    "sha256": "703f6e6701b7ee47769b6def271fa025ef32e31ee193e2ba69a2c47fff8da459"
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/librecad-appstream.patch"
                 }
             ]
         }
